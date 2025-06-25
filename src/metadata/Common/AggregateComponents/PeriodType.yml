@@ -1,0 +1,68 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\PeriodType:
+    properties:
+        startDate:
+            expose: true
+            access_type: public_method
+            serialized_name: StartDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStartDate
+                setter: setStartDate
+            type: DateTime
+        startTime:
+            expose: true
+            access_type: public_method
+            serialized_name: StartTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStartTime
+                setter: setStartTime
+            type: DateTime
+        endDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EndDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEndDate
+                setter: setEndDate
+            type: DateTime
+        endTime:
+            expose: true
+            access_type: public_method
+            serialized_name: EndTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEndTime
+                setter: setEndTime
+            type: DateTime
+        durationMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: DurationMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDurationMeasure
+                setter: setDurationMeasure
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\DurationMeasure
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Description

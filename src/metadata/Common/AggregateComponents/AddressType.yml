@@ -1,0 +1,145 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\AddressType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        postbox:
+            expose: true
+            access_type: public_method
+            serialized_name: Postbox
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPostbox
+                setter: setPostbox
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Postbox
+        room:
+            expose: true
+            access_type: public_method
+            serialized_name: Room
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRoom
+                setter: setRoom
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Room
+        streetName:
+            expose: true
+            access_type: public_method
+            serialized_name: StreetName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStreetName
+                setter: setStreetName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\StreetName
+        blockName:
+            expose: true
+            access_type: public_method
+            serialized_name: BlockName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBlockName
+                setter: setBlockName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\BlockName
+        buildingName:
+            expose: true
+            access_type: public_method
+            serialized_name: BuildingName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBuildingName
+                setter: setBuildingName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\BuildingName
+        buildingNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: BuildingNumber
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBuildingNumber
+                setter: setBuildingNumber
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\BuildingNumber
+        citySubdivisionName:
+            expose: true
+            access_type: public_method
+            serialized_name: CitySubdivisionName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCitySubdivisionName
+                setter: setCitySubdivisionName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\CitySubdivisionName
+        cityName:
+            expose: true
+            access_type: public_method
+            serialized_name: CityName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCityName
+                setter: setCityName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\CityName
+        postalZone:
+            expose: true
+            access_type: public_method
+            serialized_name: PostalZone
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPostalZone
+                setter: setPostalZone
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\PostalZone
+        region:
+            expose: true
+            access_type: public_method
+            serialized_name: Region
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegion
+                setter: setRegion
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Region
+        district:
+            expose: true
+            access_type: public_method
+            serialized_name: District
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDistrict
+                setter: setDistrict
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\District
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: Country
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Country

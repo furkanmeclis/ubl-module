@@ -1,0 +1,188 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\InvoiceLineType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\Note>
+        invoicedQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: InvoicedQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInvoicedQuantity
+                setter: setInvoicedQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\InvoicedQuantity
+        lineExtensionAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: LineExtensionAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineExtensionAmount
+                setter: setLineExtensionAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\LineExtensionAmount
+        orderLineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderLineReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOrderLineReference
+                setter: setOrderLineReference
+            xml_list:
+                inline: true
+                entry_name: OrderLineReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\OrderLineReference>
+        despatchLineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DespatchLineReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatchLineReference
+                setter: setDespatchLineReference
+            xml_list:
+                inline: true
+                entry_name: DespatchLineReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\DespatchLineReference>
+        receiptLineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ReceiptLineReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReceiptLineReference
+                setter: setReceiptLineReference
+            xml_list:
+                inline: true
+                entry_name: ReceiptLineReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\ReceiptLineReference>
+        delivery:
+            expose: true
+            access_type: public_method
+            serialized_name: Delivery
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDelivery
+                setter: setDelivery
+            xml_list:
+                inline: true
+                entry_name: Delivery
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\Delivery>
+        allowanceCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceCharge
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAllowanceCharge
+                setter: setAllowanceCharge
+            xml_list:
+                inline: true
+                entry_name: AllowanceCharge
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\AllowanceCharge>
+        taxTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxTotal
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxTotal
+                setter: setTaxTotal
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\TaxTotal
+        withholdingTaxTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: WithholdingTaxTotal
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getWithholdingTaxTotal
+                setter: setWithholdingTaxTotal
+            xml_list:
+                inline: true
+                entry_name: WithholdingTaxTotal
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\WithholdingTaxTotal>
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: Item
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItem
+                setter: setItem
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Item
+        price:
+            expose: true
+            access_type: public_method
+            serialized_name: Price
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPrice
+                setter: setPrice
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Price
+        subInvoiceLine:
+            expose: true
+            access_type: public_method
+            serialized_name: SubInvoiceLine
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSubInvoiceLine
+                setter: setSubInvoiceLine
+            xml_list:
+                inline: true
+                entry_name: SubInvoiceLine
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\SubInvoiceLine>

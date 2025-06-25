@@ -1,0 +1,146 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ItemType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Description
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Name
+        keyword:
+            expose: true
+            access_type: public_method
+            serialized_name: Keyword
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getKeyword
+                setter: setKeyword
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Keyword
+        brandName:
+            expose: true
+            access_type: public_method
+            serialized_name: BrandName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBrandName
+                setter: setBrandName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\BrandName
+        modelName:
+            expose: true
+            access_type: public_method
+            serialized_name: ModelName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getModelName
+                setter: setModelName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ModelName
+        buyersItemIdentification:
+            expose: true
+            access_type: public_method
+            serialized_name: BuyersItemIdentification
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBuyersItemIdentification
+                setter: setBuyersItemIdentification
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\BuyersItemIdentification
+        sellersItemIdentification:
+            expose: true
+            access_type: public_method
+            serialized_name: SellersItemIdentification
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSellersItemIdentification
+                setter: setSellersItemIdentification
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\SellersItemIdentification
+        manufacturersItemIdentification:
+            expose: true
+            access_type: public_method
+            serialized_name: ManufacturersItemIdentification
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getManufacturersItemIdentification
+                setter: setManufacturersItemIdentification
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\ManufacturersItemIdentification
+        additionalItemIdentification:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalItemIdentification
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalItemIdentification
+                setter: setAdditionalItemIdentification
+            xml_list:
+                inline: true
+                entry_name: AdditionalItemIdentification
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\AdditionalItemIdentification>
+        originCountry:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginCountry
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOriginCountry
+                setter: setOriginCountry
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\OriginCountry
+        commodityClassification:
+            expose: true
+            access_type: public_method
+            serialized_name: CommodityClassification
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCommodityClassification
+                setter: setCommodityClassification
+            xml_list:
+                inline: true
+                entry_name: CommodityClassification
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\CommodityClassification>
+        itemInstance:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemInstance
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItemInstance
+                setter: setItemInstance
+            xml_list:
+                inline: true
+                entry_name: ItemInstance
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\ItemInstance>

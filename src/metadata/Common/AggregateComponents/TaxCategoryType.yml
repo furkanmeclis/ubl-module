@@ -1,0 +1,46 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\TaxCategoryType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Name
+        taxExemptionReasonCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxExemptionReasonCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxExemptionReasonCode
+                setter: setTaxExemptionReasonCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TaxExemptionReasonCode
+        taxExemptionReason:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxExemptionReason
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxExemptionReason
+                setter: setTaxExemptionReason
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TaxExemptionReason
+        taxScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxScheme
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxScheme
+                setter: setTaxScheme
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\TaxScheme

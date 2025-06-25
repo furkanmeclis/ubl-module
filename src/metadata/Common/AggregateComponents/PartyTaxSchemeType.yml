@@ -1,0 +1,35 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\PartyTaxSchemeType:
+    properties:
+        registrationName:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegistrationName
+                setter: setRegistrationName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\RegistrationName
+        companyID:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCompanyID
+                setter: setCompanyID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\CompanyID
+        taxScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxScheme
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxScheme
+                setter: setTaxScheme
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\TaxScheme

@@ -1,0 +1,3 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\OpenTenderEvent:
+    xml_root_name: OpenTenderEvent
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

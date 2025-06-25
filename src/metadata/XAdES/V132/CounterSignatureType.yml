@@ -1,0 +1,13 @@
+FurkanMeclis\GIB\UBL\XAdES\V132\CounterSignatureType:
+    properties:
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: Signature
+            xml_element:
+                cdata: false
+                namespace: 'http://www.w3.org/2000/09/xmldsig#'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            type: FurkanMeclis\GIB\UBL\DigitalSignature\Signature

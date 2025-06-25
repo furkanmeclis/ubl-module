@@ -1,0 +1,90 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\TaxSubtotalType:
+    properties:
+        taxableAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxableAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxableAmount
+                setter: setTaxableAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TaxableAmount
+        taxAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxAmount
+                setter: setTaxAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TaxAmount
+        calculationSequenceNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: CalculationSequenceNumeric
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCalculationSequenceNumeric
+                setter: setCalculationSequenceNumeric
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\CalculationSequenceNumeric
+        transactionCurrencyTaxAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TransactionCurrencyTaxAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransactionCurrencyTaxAmount
+                setter: setTransactionCurrencyTaxAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TransactionCurrencyTaxAmount
+        percent:
+            expose: true
+            access_type: public_method
+            serialized_name: Percent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPercent
+                setter: setPercent
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Percent
+        baseUnitMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseUnitMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBaseUnitMeasure
+                setter: setBaseUnitMeasure
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\BaseUnitMeasure
+        perUnitAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PerUnitAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPerUnitAmount
+                setter: setPerUnitAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\PerUnitAmount
+        taxCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxCategory
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxCategory
+                setter: setTaxCategory
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\TaxCategory

@@ -1,0 +1,149 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\MeterReadingType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        meterReadingType:
+            expose: true
+            access_type: public_method
+            serialized_name: MeterReadingType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMeterReadingType
+                setter: setMeterReadingType
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\MeterReadingType
+        meterReadingTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: MeterReadingTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMeterReadingTypeCode
+                setter: setMeterReadingTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\MeterReadingTypeCode
+        previousMeterReadingDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviousMeterReadingDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPreviousMeterReadingDate
+                setter: setPreviousMeterReadingDate
+            type: DateTime
+        previousMeterQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviousMeterQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPreviousMeterQuantity
+                setter: setPreviousMeterQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\PreviousMeterQuantity
+        latestMeterReadingDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestMeterReadingDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestMeterReadingDate
+                setter: setLatestMeterReadingDate
+            type: DateTime
+        latestMeterQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestMeterQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestMeterQuantity
+                setter: setLatestMeterQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\LatestMeterQuantity
+        previousMeterReadingMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviousMeterReadingMethod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPreviousMeterReadingMethod
+                setter: setPreviousMeterReadingMethod
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\PreviousMeterReadingMethod
+        previousMeterReadingMethodCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviousMeterReadingMethodCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPreviousMeterReadingMethodCode
+                setter: setPreviousMeterReadingMethodCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\PreviousMeterReadingMethodCode
+        latestMeterReadingMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestMeterReadingMethod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestMeterReadingMethod
+                setter: setLatestMeterReadingMethod
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\LatestMeterReadingMethod
+        latestMeterReadingMethodCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestMeterReadingMethodCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestMeterReadingMethodCode
+                setter: setLatestMeterReadingMethodCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\LatestMeterReadingMethodCode
+        meterReadingComments:
+            expose: true
+            access_type: public_method
+            serialized_name: MeterReadingComments
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMeterReadingComments
+                setter: setMeterReadingComments
+            xml_list:
+                inline: true
+                entry_name: MeterReadingComments
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\MeterReadingComments>
+        deliveredQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveredQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDeliveredQuantity
+                setter: setDeliveredQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\DeliveredQuantity

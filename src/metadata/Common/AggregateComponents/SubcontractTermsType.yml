@@ -1,0 +1,83 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\SubcontractTermsType:
+    properties:
+        rate:
+            expose: true
+            access_type: public_method
+            serialized_name: Rate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRate
+                setter: setRate
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Rate
+        unknownPriceIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: UnknownPriceIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUnknownPriceIndicator
+                setter: setUnknownPriceIndicator
+            type: bool
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\Description>
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Amount
+        subcontractingConditionsCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SubcontractingConditionsCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSubcontractingConditionsCode
+                setter: setSubcontractingConditionsCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\SubcontractingConditionsCode
+        maximumPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPercent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumPercent
+                setter: setMaximumPercent
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\MaximumPercent
+        minimumPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumPercent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumPercent
+                setter: setMinimumPercent
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\MinimumPercent

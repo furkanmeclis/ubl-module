@@ -1,0 +1,13 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\CommodityClassificationType:
+    properties:
+        itemClassificationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemClassificationCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getItemClassificationCode
+                setter: setItemClassificationCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ItemClassificationCode

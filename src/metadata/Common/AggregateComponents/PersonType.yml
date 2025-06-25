@@ -1,0 +1,90 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\PersonType:
+    properties:
+        firstName:
+            expose: true
+            access_type: public_method
+            serialized_name: FirstName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFirstName
+                setter: setFirstName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\FirstName
+        familyName:
+            expose: true
+            access_type: public_method
+            serialized_name: FamilyName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFamilyName
+                setter: setFamilyName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\FamilyName
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: Title
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Title
+        middleName:
+            expose: true
+            access_type: public_method
+            serialized_name: MiddleName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMiddleName
+                setter: setMiddleName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\MiddleName
+        nameSuffix:
+            expose: true
+            access_type: public_method
+            serialized_name: NameSuffix
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNameSuffix
+                setter: setNameSuffix
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\NameSuffix
+        nationalityID:
+            expose: true
+            access_type: public_method
+            serialized_name: NationalityID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNationalityID
+                setter: setNationalityID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\NationalityID
+        financialAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: FinancialAccount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinancialAccount
+                setter: setFinancialAccount
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\FinancialAccount
+        identityDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: IdentityDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getIdentityDocumentReference
+                setter: setIdentityDocumentReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\IdentityDocumentReference

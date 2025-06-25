@@ -1,0 +1,35 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\SignatureType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        signatoryParty:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatoryParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSignatoryParty
+                setter: setSignatoryParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\SignatoryParty
+        digitalSignatureAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: DigitalSignatureAttachment
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDigitalSignatureAttachment
+                setter: setDigitalSignatureAttachment
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\DigitalSignatureAttachment

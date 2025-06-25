@@ -1,0 +1,91 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\CertificateType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        certificateTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CertificateTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCertificateTypeCode
+                setter: setCertificateTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\CertificateTypeCode
+        certificateType:
+            expose: true
+            access_type: public_method
+            serialized_name: CertificateType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCertificateType
+                setter: setCertificateType
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\CertificateType
+        remarks:
+            expose: true
+            access_type: public_method
+            serialized_name: Remarks
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRemarks
+                setter: setRemarks
+            xml_list:
+                inline: true
+                entry_name: Remarks
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\Remarks>
+        issuerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getIssuerParty
+                setter: setIssuerParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\IssuerParty
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            xml_list:
+                inline: true
+                entry_name: DocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\DocumentReference>
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: Signature
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            xml_list:
+                inline: true
+                entry_name: Signature
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\Signature>

@@ -1,0 +1,24 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ConsignmentType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        totalInvoiceAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalInvoiceAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalInvoiceAmount
+                setter: setTotalInvoiceAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TotalInvoiceAmount

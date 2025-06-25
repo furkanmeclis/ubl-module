@@ -1,0 +1,90 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\DespatchType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        actualDespatchDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDespatchDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualDespatchDate
+                setter: setActualDespatchDate
+            type: DateTime
+        actualDespatchTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDespatchTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualDespatchTime
+                setter: setActualDespatchTime
+            type: DateTime
+        instructions:
+            expose: true
+            access_type: public_method
+            serialized_name: Instructions
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstructions
+                setter: setInstructions
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Instructions
+        despatchAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: DespatchAddress
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatchAddress
+                setter: setDespatchAddress
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\DespatchAddress
+        despatchParty:
+            expose: true
+            access_type: public_method
+            serialized_name: DespatchParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatchParty
+                setter: setDespatchParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\DespatchParty
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: Contact
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContact
+                setter: setContact
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Contact
+        estimatedDespatchPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedDespatchPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEstimatedDespatchPeriod
+                setter: setEstimatedDespatchPeriod
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\EstimatedDespatchPeriod

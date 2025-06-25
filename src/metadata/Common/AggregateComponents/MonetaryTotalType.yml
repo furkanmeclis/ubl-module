@@ -1,0 +1,79 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\MonetaryTotalType:
+    properties:
+        lineExtensionAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: LineExtensionAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineExtensionAmount
+                setter: setLineExtensionAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\LineExtensionAmount
+        taxExclusiveAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxExclusiveAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxExclusiveAmount
+                setter: setTaxExclusiveAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TaxExclusiveAmount
+        taxInclusiveAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxInclusiveAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxInclusiveAmount
+                setter: setTaxInclusiveAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TaxInclusiveAmount
+        allowanceTotalAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceTotalAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAllowanceTotalAmount
+                setter: setAllowanceTotalAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\AllowanceTotalAmount
+        chargeTotalAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: ChargeTotalAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getChargeTotalAmount
+                setter: setChargeTotalAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ChargeTotalAmount
+        payableRoundingAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PayableRoundingAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPayableRoundingAmount
+                setter: setPayableRoundingAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\PayableRoundingAmount
+        payableAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PayableAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPayableAmount
+                setter: setPayableAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\PayableAmount

@@ -1,0 +1,269 @@
+FurkanMeclis\GIB\UBL\ReceiptAdvice\ReceiptAdviceType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<FurkanMeclis\GIB\UBL\Common\ExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        uBLVersionID:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLVersionID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUBLVersionID
+                setter: setUBLVersionID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\UBLVersionID
+        customizationID:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomizationID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCustomizationID
+                setter: setCustomizationID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\CustomizationID
+        profileID:
+            expose: true
+            access_type: public_method
+            serialized_name: ProfileID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getProfileID
+                setter: setProfileID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ProfileID
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        copyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: CopyIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCopyIndicator
+                setter: setCopyIndicator
+            type: bool
+        uUID:
+            expose: true
+            access_type: public_method
+            serialized_name: UUID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUUID
+                setter: setUUID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\UUID
+        issueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueDate
+                setter: setIssueDate
+            type: DateTime
+        issueTime:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueTime
+                setter: setIssueTime
+            type: DateTime
+        receiptAdviceTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ReceiptAdviceTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReceiptAdviceTypeCode
+                setter: setReceiptAdviceTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ReceiptAdviceTypeCode
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\Note>
+        lineCountNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: LineCountNumeric
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineCountNumeric
+                setter: setLineCountNumeric
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\LineCountNumeric
+        orderReference:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOrderReference
+                setter: setOrderReference
+            xml_list:
+                inline: true
+                entry_name: OrderReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\OrderReference>
+        despatchDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DespatchDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatchDocumentReference
+                setter: setDespatchDocumentReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\DespatchDocumentReference
+        additionalDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalDocumentReference
+                setter: setAdditionalDocumentReference
+            xml_list:
+                inline: true
+                entry_name: AdditionalDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\AdditionalDocumentReference>
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: Signature
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            xml_list:
+                inline: true
+                entry_name: Signature
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\Signature>
+        deliveryCustomerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryCustomerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryCustomerParty
+                setter: setDeliveryCustomerParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\DeliveryCustomerParty
+        despatchSupplierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: DespatchSupplierParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatchSupplierParty
+                setter: setDespatchSupplierParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\DespatchSupplierParty
+        buyerCustomerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: BuyerCustomerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBuyerCustomerParty
+                setter: setBuyerCustomerParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\BuyerCustomerParty
+        sellerSupplierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: SellerSupplierParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSellerSupplierParty
+                setter: setSellerSupplierParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\SellerSupplierParty
+        shipment:
+            expose: true
+            access_type: public_method
+            serialized_name: Shipment
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShipment
+                setter: setShipment
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Shipment
+        receiptLine:
+            expose: true
+            access_type: public_method
+            serialized_name: ReceiptLine
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReceiptLine
+                setter: setReceiptLine
+            xml_list:
+                inline: true
+                entry_name: ReceiptLine
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\ReceiptLine>

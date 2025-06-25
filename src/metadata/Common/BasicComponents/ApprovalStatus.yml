@@ -1,0 +1,3 @@
+FurkanMeclis\GIB\UBL\Common\BasicComponents\ApprovalStatus:
+    xml_root_name: ApprovalStatus
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

@@ -1,0 +1,57 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\OrderLineReferenceType:
+    properties:
+        lineID:
+            expose: true
+            access_type: public_method
+            serialized_name: LineID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineID
+                setter: setLineID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\LineID
+        salesOrderLineID:
+            expose: true
+            access_type: public_method
+            serialized_name: SalesOrderLineID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSalesOrderLineID
+                setter: setSalesOrderLineID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\SalesOrderLineID
+        uUID:
+            expose: true
+            access_type: public_method
+            serialized_name: UUID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUUID
+                setter: setUUID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\UUID
+        lineStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LineStatusCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineStatusCode
+                setter: setLineStatusCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\LineStatusCode
+        orderReference:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOrderReference
+                setter: setOrderReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\OrderReference

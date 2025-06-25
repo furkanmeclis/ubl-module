@@ -1,0 +1,96 @@
+xsd2php:
+  namespaces:
+    # Main Docs
+    'urn:oasis:names:specification:ubl:schema:xsd:Invoice-2': 'FurkanMeclis\GIB\UBL\Invoice'
+    'urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2': 'FurkanMeclis\GIB\UBL\CreditNote'
+    'urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2': 'FurkanMeclis\GIB\UBL\DespatchAdvice'
+    'urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2': 'FurkanMeclis\GIB\UBL\ReceiptAdvice'
+    'urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2': 'FurkanMeclis\GIB\UBL\ApplicationResponse'
+
+    # Common Components
+    'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2': 'FurkanMeclis\GIB\UBL\Common\AggregateComponents'
+    'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2': 'FurkanMeclis\GIB\UBL\Common\BasicComponents'
+    'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2': 'FurkanMeclis\GIB\UBL\Common\ExtensionComponents'
+
+    # Signature Components
+    'urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2': 'FurkanMeclis\GIB\UBL\Common\SignatureComponents'
+    'urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2': 'FurkanMeclis\GIB\UBL\Common\SignatureBasicComponents'
+    'urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2': 'FurkanMeclis\GIB\UBL\SignatureAggregateComponents'
+
+    # Data Types
+    'urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2': 'FurkanMeclis\GIB\UBL\UnqualifiedDataTypes'
+    'urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2': 'FurkanMeclis\GIB\UBL\QualifiedDataTypes'
+
+    # Core & External Standards
+    'urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2': 'FurkanMeclis\GIB\UBL\CoreComponent'
+    'http://www.w3.org/2000/09/xmldsig#': 'FurkanMeclis\GIB\UBL\DigitalSignature'
+    'http://uri.etsi.org/01903/v1.3.2#': 'FurkanMeclis\GIB\UBL\XAdES\V132'
+    'http://uri.etsi.org/01903/v1.4.1#': 'FurkanMeclis\GIB\UBL\XAdES\V141'
+    'urn:un:unece:uncefact:documentation:2': 'FurkanMeclis\GIB\UBL\UN\Documentation'
+
+  destinations_php:
+    # Main Docs
+    'FurkanMeclis\GIB\UBL\Invoice': 'src/Invoice'
+    'FurkanMeclis\GIB\UBL\CreditNote': 'src/CreditNote'
+    'FurkanMeclis\GIB\UBL\DespatchAdvice': 'src/DespatchAdvice'
+    'FurkanMeclis\GIB\UBL\ReceiptAdvice': 'src/ReceiptAdvice'
+    'FurkanMeclis\GIB\UBL\ApplicationResponse': 'src/ApplicationResponse'
+
+    # Common Components
+    'FurkanMeclis\GIB\UBL\Common\AggregateComponents': 'src/Common/AggregateComponents'
+    'FurkanMeclis\GIB\UBL\Common\BasicComponents': 'src/Common/BasicComponents'
+    'FurkanMeclis\GIB\UBL\Common\ExtensionComponents': 'src/Common/ExtensionComponents'
+
+    # Signature Components
+    'FurkanMeclis\GIB\UBL\Common\SignatureComponents': 'src/Common/SignatureComponents'
+    'FurkanMeclis\GIB\UBL\Common\SignatureBasicComponents': 'src/Common/SignatureBasicComponents'
+    'FurkanMeclis\GIB\UBL\SignatureAggregateComponents': 'src/SignatureAggregateComponents'
+
+    # Data Types
+    'FurkanMeclis\GIB\UBL\UnqualifiedDataTypes': 'src/UnqualifiedDataTypes'
+    'FurkanMeclis\GIB\UBL\QualifiedDataTypes': 'src/QualifiedDataTypes'
+
+    # Core & External Standards
+    'FurkanMeclis\GIB\UBL\CoreComponent': 'src/CoreComponent'
+    'FurkanMeclis\GIB\UBL\DigitalSignature': 'src/DigitalSignature'
+    'FurkanMeclis\GIB\UBL\XAdES\V132': 'src/XAdES/V132'
+    'FurkanMeclis\GIB\UBL\XAdES\V141': 'src/XAdES/V141'
+    'FurkanMeclis\GIB\UBL\UN\Documentation': 'src/UN/Documentation'
+
+  destinations_jms:
+    # Main Docs
+    'FurkanMeclis\GIB\UBL\Invoice': 'src/metadata/Invoice'
+    'FurkanMeclis\GIB\UBL\CreditNote': 'src/metadata/CreditNote'
+    'FurkanMeclis\GIB\UBL\DespatchAdvice': 'src/metadata/DespatchAdvice'
+    'FurkanMeclis\GIB\UBL\ReceiptAdvice': 'src/metadata/ReceiptAdvice'
+    'FurkanMeclis\GIB\UBL\ApplicationResponse': 'src/metadata/ApplicationResponse'
+
+    # Common Components
+    'FurkanMeclis\GIB\UBL\Common\AggregateComponents': 'src/metadata/Common/AggregateComponents'
+    'FurkanMeclis\GIB\UBL\Common\BasicComponents': 'src/metadata/Common/BasicComponents'
+    'FurkanMeclis\GIB\UBL\Common\ExtensionComponents': 'src/metadata/Common/ExtensionComponents'
+
+    # Signature Components
+    'FurkanMeclis\GIB\UBL\Common\SignatureComponents': 'src/metadata/Common/SignatureComponents'
+    'FurkanMeclis\GIB\UBL\Common\SignatureBasicComponents': 'src/metadata/Common/SignatureBasicComponents'
+    'FurkanMeclis\GIB\UBL\SignatureAggregateComponents': 'src/metadata/SignatureAggregateComponents'
+
+    # Data Types
+    'FurkanMeclis\GIB\UBL\UnqualifiedDataTypes': 'src/metadata/UnqualifiedDataTypes'
+    'FurkanMeclis\GIB\UBL\QualifiedDataTypes': 'src/metadata/QualifiedDataTypes'
+
+    # Core & External Standards
+    'FurkanMeclis\GIB\UBL\CoreComponent': 'src/metadata/CoreComponent'
+    'FurkanMeclis\GIB\UBL\DigitalSignature': 'src/metadata/DigitalSignature'
+    'FurkanMeclis\GIB\UBL\XAdES\V132': 'src/metadata/XAdES/V132'
+    'FurkanMeclis\GIB\UBL\XAdES\V141': 'src/metadata/XAdES/V141'
+    'FurkanMeclis\GIB\UBL\UN\Documentation': 'src/metadata/UN/Documentation'
+
+  aliases:
+    'http://www.w3.org/2001/XMLSchema':
+      date: 'DateTime'
+      time: 'DateTime'
+      base64Binary: 'string'
+
+  configs_jms:
+    xml_cdata: false

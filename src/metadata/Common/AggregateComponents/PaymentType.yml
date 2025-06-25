@@ -1,0 +1,68 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\PaymentType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        paidAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PaidAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaidAmount
+                setter: setPaidAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\PaidAmount
+        receivedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ReceivedDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReceivedDate
+                setter: setReceivedDate
+            type: DateTime
+        paidDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PaidDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaidDate
+                setter: setPaidDate
+            type: DateTime
+        paidTime:
+            expose: true
+            access_type: public_method
+            serialized_name: PaidTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaidTime
+                setter: setPaidTime
+            type: DateTime
+        instructionID:
+            expose: true
+            access_type: public_method
+            serialized_name: InstructionID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstructionID
+                setter: setInstructionID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\InstructionID

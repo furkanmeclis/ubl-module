@@ -1,0 +1,3 @@
+FurkanMeclis\GIB\UBL\Common\BasicComponents\ChargeableQuantity:
+    xml_root_name: ChargeableQuantity
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

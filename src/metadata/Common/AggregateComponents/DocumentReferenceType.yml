@@ -1,0 +1,94 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\DocumentReferenceType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        issueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueDate
+                setter: setIssueDate
+            type: DateTime
+        documentTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDocumentTypeCode
+                setter: setDocumentTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\DocumentTypeCode
+        documentType:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDocumentType
+                setter: setDocumentType
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\DocumentType
+        documentDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentDescription
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDocumentDescription
+                setter: setDocumentDescription
+            xml_list:
+                inline: true
+                entry_name: DocumentDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\DocumentDescription>
+        attachment:
+            expose: true
+            access_type: public_method
+            serialized_name: Attachment
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAttachment
+                setter: setAttachment
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Attachment
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\ValidityPeriod
+        issuerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getIssuerParty
+                setter: setIssuerParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\IssuerParty

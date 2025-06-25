@@ -1,0 +1,68 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\PaymentMeansType:
+    properties:
+        paymentMeansCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentMeansCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentMeansCode
+                setter: setPaymentMeansCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\PaymentMeansCode
+        paymentDueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentDueDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentDueDate
+                setter: setPaymentDueDate
+            type: DateTime
+        paymentChannelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentChannelCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentChannelCode
+                setter: setPaymentChannelCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\PaymentChannelCode
+        instructionNote:
+            expose: true
+            access_type: public_method
+            serialized_name: InstructionNote
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstructionNote
+                setter: setInstructionNote
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\InstructionNote
+        payerFinancialAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: PayerFinancialAccount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayerFinancialAccount
+                setter: setPayerFinancialAccount
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\PayerFinancialAccount
+        payeeFinancialAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: PayeeFinancialAccount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayeeFinancialAccount
+                setter: setPayeeFinancialAccount
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\PayeeFinancialAccount

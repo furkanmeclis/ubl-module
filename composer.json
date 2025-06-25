@@ -1,0 +1,27 @@
+{
+    "name": "furkanmeclis/uabala2a1a-pahapa-saearavaiacaea",
+    "description": "Gizli",
+    "type": "library",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Furkan Meclis",
+            "email": "furkanmeclis@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "goetas-webservices/xsd2php-runtime": "^0.2.0",
+        "jms/serializer": "^3.0",
+        "symfony/yaml": "^6.0"
+    },
+    "require-dev": {
+        "goetas-webservices/xsd2php": "^0.4.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "FurkanMeclis\\GIB\\UBL\\": "src/"
+        }
+    }
+}

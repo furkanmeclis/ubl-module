@@ -1,0 +1,24 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\BranchType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Name
+        financialInstitution:
+            expose: true
+            access_type: public_method
+            serialized_name: FinancialInstitution
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinancialInstitution
+                setter: setFinancialInstitution
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\FinancialInstitution

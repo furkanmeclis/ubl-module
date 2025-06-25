@@ -1,0 +1,260 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ShipmentType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        handlingCode:
+            expose: true
+            access_type: public_method
+            serialized_name: HandlingCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHandlingCode
+                setter: setHandlingCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\HandlingCode
+        handlingInstructions:
+            expose: true
+            access_type: public_method
+            serialized_name: HandlingInstructions
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHandlingInstructions
+                setter: setHandlingInstructions
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\HandlingInstructions
+        grossWeightMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: GrossWeightMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGrossWeightMeasure
+                setter: setGrossWeightMeasure
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\GrossWeightMeasure
+        netWeightMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: NetWeightMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNetWeightMeasure
+                setter: setNetWeightMeasure
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\NetWeightMeasure
+        grossVolumeMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: GrossVolumeMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGrossVolumeMeasure
+                setter: setGrossVolumeMeasure
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\GrossVolumeMeasure
+        netVolumeMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: NetVolumeMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNetVolumeMeasure
+                setter: setNetVolumeMeasure
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\NetVolumeMeasure
+        totalGoodsItemQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalGoodsItemQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalGoodsItemQuantity
+                setter: setTotalGoodsItemQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TotalGoodsItemQuantity
+        totalTransportHandlingUnitQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalTransportHandlingUnitQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalTransportHandlingUnitQuantity
+                setter: setTotalTransportHandlingUnitQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TotalTransportHandlingUnitQuantity
+        insuranceValueAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: InsuranceValueAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInsuranceValueAmount
+                setter: setInsuranceValueAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\InsuranceValueAmount
+        declaredCustomsValueAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: DeclaredCustomsValueAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDeclaredCustomsValueAmount
+                setter: setDeclaredCustomsValueAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\DeclaredCustomsValueAmount
+        declaredForCarriageValueAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: DeclaredForCarriageValueAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDeclaredForCarriageValueAmount
+                setter: setDeclaredForCarriageValueAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\DeclaredForCarriageValueAmount
+        declaredStatisticsValueAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: DeclaredStatisticsValueAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDeclaredStatisticsValueAmount
+                setter: setDeclaredStatisticsValueAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\DeclaredStatisticsValueAmount
+        freeOnBoardValueAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: FreeOnBoardValueAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFreeOnBoardValueAmount
+                setter: setFreeOnBoardValueAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\FreeOnBoardValueAmount
+        specialInstructions:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecialInstructions
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSpecialInstructions
+                setter: setSpecialInstructions
+            xml_list:
+                inline: true
+                entry_name: SpecialInstructions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\SpecialInstructions>
+        goodsItem:
+            expose: true
+            access_type: public_method
+            serialized_name: GoodsItem
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getGoodsItem
+                setter: setGoodsItem
+            xml_list:
+                inline: true
+                entry_name: GoodsItem
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\GoodsItem>
+        shipmentStage:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentStage
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShipmentStage
+                setter: setShipmentStage
+            xml_list:
+                inline: true
+                entry_name: ShipmentStage
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\ShipmentStage>
+        delivery:
+            expose: true
+            access_type: public_method
+            serialized_name: Delivery
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDelivery
+                setter: setDelivery
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Delivery
+        transportHandlingUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportHandlingUnit
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransportHandlingUnit
+                setter: setTransportHandlingUnit
+            xml_list:
+                inline: true
+                entry_name: TransportHandlingUnit
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\TransportHandlingUnit>
+        returnAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: ReturnAddress
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReturnAddress
+                setter: setReturnAddress
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\ReturnAddress
+        firstArrivalPortLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: FirstArrivalPortLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFirstArrivalPortLocation
+                setter: setFirstArrivalPortLocation
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\FirstArrivalPortLocation
+        lastExitPortLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: LastExitPortLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLastExitPortLocation
+                setter: setLastExitPortLocation
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\LastExitPortLocation

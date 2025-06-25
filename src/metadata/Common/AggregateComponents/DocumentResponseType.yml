@@ -1,0 +1,39 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\DocumentResponseType:
+    properties:
+        response:
+            expose: true
+            access_type: public_method
+            serialized_name: Response
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getResponse
+                setter: setResponse
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Response
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\DocumentReference
+        lineResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: LineResponse
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLineResponse
+                setter: setLineResponse
+            xml_list:
+                inline: true
+                entry_name: LineResponse
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\LineResponse>

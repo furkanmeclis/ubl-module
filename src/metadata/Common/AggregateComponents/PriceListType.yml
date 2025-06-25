@@ -1,0 +1,50 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\PriceListType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        statusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStatusCode
+                setter: setStatusCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\StatusCode
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            xml_list:
+                inline: true
+                entry_name: ValidityPeriod
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\ValidityPeriod>
+        previousPriceList:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviousPriceList
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPreviousPriceList
+                setter: setPreviousPriceList
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\PreviousPriceList

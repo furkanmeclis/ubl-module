@@ -1,0 +1,46 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\EventTacticEnumerationType:
+    properties:
+        consumerIncentiveTacticTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumerIncentiveTacticTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumerIncentiveTacticTypeCode
+                setter: setConsumerIncentiveTacticTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ConsumerIncentiveTacticTypeCode
+        displayTacticTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DisplayTacticTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDisplayTacticTypeCode
+                setter: setDisplayTacticTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\DisplayTacticTypeCode
+        featureTacticTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FeatureTacticTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFeatureTacticTypeCode
+                setter: setFeatureTacticTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\FeatureTacticTypeCode
+        tradeItemPackingLabelingTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TradeItemPackingLabelingTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTradeItemPackingLabelingTypeCode
+                setter: setTradeItemPackingLabelingTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TradeItemPackingLabelingTypeCode

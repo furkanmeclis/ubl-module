@@ -1,0 +1,57 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\OrderReferenceType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        salesOrderID:
+            expose: true
+            access_type: public_method
+            serialized_name: SalesOrderID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSalesOrderID
+                setter: setSalesOrderID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\SalesOrderID
+        issueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueDate
+                setter: setIssueDate
+            type: DateTime
+        orderTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOrderTypeCode
+                setter: setOrderTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\OrderTypeCode
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\DocumentReference

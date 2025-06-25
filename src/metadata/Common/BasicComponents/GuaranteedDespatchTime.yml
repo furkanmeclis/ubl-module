@@ -1,0 +1,14 @@
+FurkanMeclis\GIB\UBL\Common\BasicComponents\GuaranteedDespatchTime:
+    xml_root_name: GuaranteedDespatchTime
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: DateTime
+            xml_element:
+                cdata: false

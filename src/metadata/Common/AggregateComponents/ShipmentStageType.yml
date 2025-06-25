@@ -1,0 +1,98 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ShipmentStageType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        transportModeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportModeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransportModeCode
+                setter: setTransportModeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TransportModeCode
+        transportMeansTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportMeansTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransportMeansTypeCode
+                setter: setTransportMeansTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TransportMeansTypeCode
+        transitDirectionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransitDirectionCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransitDirectionCode
+                setter: setTransitDirectionCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TransitDirectionCode
+        instructions:
+            expose: true
+            access_type: public_method
+            serialized_name: Instructions
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstructions
+                setter: setInstructions
+            xml_list:
+                inline: true
+                entry_name: Instructions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\Instructions>
+        transitPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: TransitPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransitPeriod
+                setter: setTransitPeriod
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\TransitPeriod
+        transportMeans:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportMeans
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransportMeans
+                setter: setTransportMeans
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\TransportMeans
+        driverPerson:
+            expose: true
+            access_type: public_method
+            serialized_name: DriverPerson
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDriverPerson
+                setter: setDriverPerson
+            xml_list:
+                inline: true
+                entry_name: DriverPerson
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\DriverPerson>

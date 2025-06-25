@@ -1,0 +1,83 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ConsumptionHistoryType:
+    properties:
+        meterNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: MeterNumber
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMeterNumber
+                setter: setMeterNumber
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\MeterNumber
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Quantity
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Amount
+        consumptionLevelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionLevelCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionLevelCode
+                setter: setConsumptionLevelCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ConsumptionLevelCode
+        consumptionLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionLevel
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionLevel
+                setter: setConsumptionLevel
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ConsumptionLevel
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\Description>
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: Period
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Period

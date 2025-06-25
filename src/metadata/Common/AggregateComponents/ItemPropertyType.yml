@@ -1,0 +1,157 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ItemPropertyType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Name
+        nameCode:
+            expose: true
+            access_type: public_method
+            serialized_name: NameCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNameCode
+                setter: setNameCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\NameCode
+        testMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: TestMethod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTestMethod
+                setter: setTestMethod
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TestMethod
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: Value
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Value
+        valueQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ValueQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValueQuantity
+                setter: setValueQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ValueQuantity
+        valueQualifier:
+            expose: true
+            access_type: public_method
+            serialized_name: ValueQualifier
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValueQualifier
+                setter: setValueQualifier
+            xml_list:
+                inline: true
+                entry_name: ValueQualifier
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\ValueQualifier>
+        importanceCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ImportanceCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getImportanceCode
+                setter: setImportanceCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ImportanceCode
+        listValue:
+            expose: true
+            access_type: public_method
+            serialized_name: ListValue
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getListValue
+                setter: setListValue
+            xml_list:
+                inline: true
+                entry_name: ListValue
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\ListValue>
+        usabilityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: UsabilityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getUsabilityPeriod
+                setter: setUsabilityPeriod
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\UsabilityPeriod
+        itemPropertyGroup:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemPropertyGroup
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItemPropertyGroup
+                setter: setItemPropertyGroup
+            xml_list:
+                inline: true
+                entry_name: ItemPropertyGroup
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\ItemPropertyGroup>
+        rangeDimension:
+            expose: true
+            access_type: public_method
+            serialized_name: RangeDimension
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRangeDimension
+                setter: setRangeDimension
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\RangeDimension
+        itemPropertyRange:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemPropertyRange
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItemPropertyRange
+                setter: setItemPropertyRange
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\ItemPropertyRange

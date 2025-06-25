@@ -1,0 +1,46 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\FinancialAccountType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        currencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCurrencyCode
+                setter: setCurrencyCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\CurrencyCode
+        paymentNote:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentNote
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentNote
+                setter: setPaymentNote
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\PaymentNote
+        financialInstitutionBranch:
+            expose: true
+            access_type: public_method
+            serialized_name: FinancialInstitutionBranch
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinancialInstitutionBranch
+                setter: setFinancialInstitutionBranch
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\FinancialInstitutionBranch

@@ -1,0 +1,57 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ConsumptionReportReferenceType:
+    properties:
+        consumptionReportID:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionReportID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionReportID
+                setter: setConsumptionReportID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ConsumptionReportID
+        consumptionType:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionType
+                setter: setConsumptionType
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ConsumptionType
+        consumptionTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionTypeCode
+                setter: setConsumptionTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ConsumptionTypeCode
+        totalConsumedQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalConsumedQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalConsumedQuantity
+                setter: setTotalConsumedQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TotalConsumedQuantity
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: Period
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Period

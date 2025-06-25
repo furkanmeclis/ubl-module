@@ -1,0 +1,194 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ReceiptLineType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\Note>
+        receivedQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ReceivedQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReceivedQuantity
+                setter: setReceivedQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ReceivedQuantity
+        shortQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ShortQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getShortQuantity
+                setter: setShortQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ShortQuantity
+        rejectedQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: RejectedQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRejectedQuantity
+                setter: setRejectedQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\RejectedQuantity
+        rejectReasonCode:
+            expose: true
+            access_type: public_method
+            serialized_name: RejectReasonCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRejectReasonCode
+                setter: setRejectReasonCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\RejectReasonCode
+        rejectReason:
+            expose: true
+            access_type: public_method
+            serialized_name: RejectReason
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRejectReason
+                setter: setRejectReason
+            xml_list:
+                inline: true
+                entry_name: RejectReason
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\RejectReason>
+        oversupplyQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: OversupplyQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOversupplyQuantity
+                setter: setOversupplyQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\OversupplyQuantity
+        receivedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ReceivedDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReceivedDate
+                setter: setReceivedDate
+            type: DateTime
+        timingComplaintCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TimingComplaintCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTimingComplaintCode
+                setter: setTimingComplaintCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TimingComplaintCode
+        timingComplaint:
+            expose: true
+            access_type: public_method
+            serialized_name: TimingComplaint
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTimingComplaint
+                setter: setTimingComplaint
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TimingComplaint
+        orderLineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderLineReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOrderLineReference
+                setter: setOrderLineReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\OrderLineReference
+        despatchLineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DespatchLineReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatchLineReference
+                setter: setDespatchLineReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\DespatchLineReference
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            xml_list:
+                inline: true
+                entry_name: DocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\DocumentReference>
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: Item
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItem
+                setter: setItem
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Item
+        shipment:
+            expose: true
+            access_type: public_method
+            serialized_name: Shipment
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShipment
+                setter: setShipment
+            xml_list:
+                inline: true
+                entry_name: Shipment
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\Shipment>

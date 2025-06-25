@@ -1,0 +1,79 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\AllowanceChargeType:
+    properties:
+        chargeIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ChargeIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getChargeIndicator
+                setter: setChargeIndicator
+            type: bool
+        allowanceChargeReason:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceChargeReason
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAllowanceChargeReason
+                setter: setAllowanceChargeReason
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\AllowanceChargeReason
+        multiplierFactorNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: MultiplierFactorNumeric
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMultiplierFactorNumeric
+                setter: setMultiplierFactorNumeric
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\MultiplierFactorNumeric
+        sequenceNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: SequenceNumeric
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSequenceNumeric
+                setter: setSequenceNumeric
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\SequenceNumeric
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Amount
+        baseAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBaseAmount
+                setter: setBaseAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\BaseAmount
+        perUnitAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PerUnitAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPerUnitAmount
+                setter: setPerUnitAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\PerUnitAmount

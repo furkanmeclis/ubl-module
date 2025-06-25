@@ -1,0 +1,87 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\TradeFinancingType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        financingInstrumentCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FinancingInstrumentCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFinancingInstrumentCode
+                setter: setFinancingInstrumentCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\FinancingInstrumentCode
+        contractDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContractDocumentReference
+                setter: setContractDocumentReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\ContractDocumentReference
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            xml_list:
+                inline: true
+                entry_name: DocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\DocumentReference>
+        financingParty:
+            expose: true
+            access_type: public_method
+            serialized_name: FinancingParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinancingParty
+                setter: setFinancingParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\FinancingParty
+        financingFinancialAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: FinancingFinancialAccount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinancingFinancialAccount
+                setter: setFinancingFinancialAccount
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\FinancingFinancialAccount
+        clause:
+            expose: true
+            access_type: public_method
+            serialized_name: Clause
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getClause
+                setter: setClause
+            xml_list:
+                inline: true
+                entry_name: Clause
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\Clause>

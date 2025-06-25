@@ -1,0 +1,35 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\DeliveryTermsType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        specialTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecialTerms
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSpecialTerms
+                setter: setSpecialTerms
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\SpecialTerms
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Amount

@@ -1,0 +1,179 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ExceptionNotificationLineType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\Note>
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\Description>
+        exceptionStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ExceptionStatusCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExceptionStatusCode
+                setter: setExceptionStatusCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ExceptionStatusCode
+        collaborationPriorityCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CollaborationPriorityCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCollaborationPriorityCode
+                setter: setCollaborationPriorityCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\CollaborationPriorityCode
+        resolutionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ResolutionCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResolutionCode
+                setter: setResolutionCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ResolutionCode
+        comparedValueMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: ComparedValueMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getComparedValueMeasure
+                setter: setComparedValueMeasure
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ComparedValueMeasure
+        sourceValueMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceValueMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSourceValueMeasure
+                setter: setSourceValueMeasure
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\SourceValueMeasure
+        varianceQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: VarianceQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getVarianceQuantity
+                setter: setVarianceQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\VarianceQuantity
+        supplyChainActivityTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SupplyChainActivityTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSupplyChainActivityTypeCode
+                setter: setSupplyChainActivityTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\SupplyChainActivityTypeCode
+        performanceMetricTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PerformanceMetricTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPerformanceMetricTypeCode
+                setter: setPerformanceMetricTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\PerformanceMetricTypeCode
+        exceptionObservationPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ExceptionObservationPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getExceptionObservationPeriod
+                setter: setExceptionObservationPeriod
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\ExceptionObservationPeriod
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            xml_list:
+                inline: true
+                entry_name: DocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\DocumentReference>
+        forecastException:
+            expose: true
+            access_type: public_method
+            serialized_name: ForecastException
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getForecastException
+                setter: setForecastException
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\ForecastException
+        supplyItem:
+            expose: true
+            access_type: public_method
+            serialized_name: SupplyItem
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSupplyItem
+                setter: setSupplyItem
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\SupplyItem

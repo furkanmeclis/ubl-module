@@ -1,0 +1,102 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\EvaluationCriterionType:
+    properties:
+        evaluationCriterionTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: EvaluationCriterionTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEvaluationCriterionTypeCode
+                setter: setEvaluationCriterionTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\EvaluationCriterionTypeCode
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\Description>
+        thresholdAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: ThresholdAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getThresholdAmount
+                setter: setThresholdAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ThresholdAmount
+        thresholdQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ThresholdQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getThresholdQuantity
+                setter: setThresholdQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ThresholdQuantity
+        expressionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpressionCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpressionCode
+                setter: setExpressionCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ExpressionCode
+        expression:
+            expose: true
+            access_type: public_method
+            serialized_name: Expression
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpression
+                setter: setExpression
+            xml_list:
+                inline: true
+                entry_name: Expression
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\Expression>
+        durationPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: DurationPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDurationPeriod
+                setter: setDurationPeriod
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\DurationPeriod
+        suggestedEvidence:
+            expose: true
+            access_type: public_method
+            serialized_name: SuggestedEvidence
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSuggestedEvidence
+                setter: setSuggestedEvidence
+            xml_list:
+                inline: true
+                entry_name: SuggestedEvidence
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\SuggestedEvidence>

@@ -1,0 +1,83 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ContactType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Name
+        telephone:
+            expose: true
+            access_type: public_method
+            serialized_name: Telephone
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTelephone
+                setter: setTelephone
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Telephone
+        telefax:
+            expose: true
+            access_type: public_method
+            serialized_name: Telefax
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTelefax
+                setter: setTelefax
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Telefax
+        electronicMail:
+            expose: true
+            access_type: public_method
+            serialized_name: ElectronicMail
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getElectronicMail
+                setter: setElectronicMail
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ElectronicMail
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Note
+        otherCommunication:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherCommunication
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOtherCommunication
+                setter: setOtherCommunication
+            xml_list:
+                inline: true
+                entry_name: OtherCommunication
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\OtherCommunication>

@@ -1,0 +1,13 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ExternalReferenceType:
+    properties:
+        uRI:
+            expose: true
+            access_type: public_method
+            serialized_name: URI
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getURI
+                setter: setURI
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\URI

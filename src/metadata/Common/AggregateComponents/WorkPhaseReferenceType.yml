@@ -1,0 +1,87 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\WorkPhaseReferenceType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        workPhaseCode:
+            expose: true
+            access_type: public_method
+            serialized_name: WorkPhaseCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWorkPhaseCode
+                setter: setWorkPhaseCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\WorkPhaseCode
+        workPhase:
+            expose: true
+            access_type: public_method
+            serialized_name: WorkPhase
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWorkPhase
+                setter: setWorkPhase
+            xml_list:
+                inline: true
+                entry_name: WorkPhase
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\WorkPhase>
+        progressPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgressPercent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getProgressPercent
+                setter: setProgressPercent
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ProgressPercent
+        startDate:
+            expose: true
+            access_type: public_method
+            serialized_name: StartDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStartDate
+                setter: setStartDate
+            type: DateTime
+        endDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EndDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEndDate
+                setter: setEndDate
+            type: DateTime
+        workOrderDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: WorkOrderDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getWorkOrderDocumentReference
+                setter: setWorkOrderDocumentReference
+            xml_list:
+                inline: true
+                entry_name: WorkOrderDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\WorkOrderDocumentReference>

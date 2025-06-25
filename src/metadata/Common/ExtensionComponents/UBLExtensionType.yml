@@ -1,0 +1,13 @@
+FurkanMeclis\GIB\UBL\Common\ExtensionComponents\UBLExtensionType:
+    properties:
+        extensionContent:
+            expose: true
+            access_type: public_method
+            serialized_name: ExtensionContent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getExtensionContent
+                setter: setExtensionContent
+            type: FurkanMeclis\GIB\UBL\Common\ExtensionComponents\ExtensionContent

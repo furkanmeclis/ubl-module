@@ -1,0 +1,68 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\PaymentTermsType:
+    properties:
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Note
+        penaltySurchargePercent:
+            expose: true
+            access_type: public_method
+            serialized_name: PenaltySurchargePercent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPenaltySurchargePercent
+                setter: setPenaltySurchargePercent
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\PenaltySurchargePercent
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Amount
+        penaltyAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PenaltyAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPenaltyAmount
+                setter: setPenaltyAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\PenaltyAmount
+        paymentDueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentDueDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentDueDate
+                setter: setPaymentDueDate
+            type: DateTime
+        settlementPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: SettlementPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSettlementPeriod
+                setter: setSettlementPeriod
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\SettlementPeriod

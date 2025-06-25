@@ -1,0 +1,171 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\DeliveryType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Quantity
+        actualDeliveryDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDeliveryDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualDeliveryDate
+                setter: setActualDeliveryDate
+            type: DateTime
+        actualDeliveryTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDeliveryTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualDeliveryTime
+                setter: setActualDeliveryTime
+            type: DateTime
+        latestDeliveryDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestDeliveryDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestDeliveryDate
+                setter: setLatestDeliveryDate
+            type: DateTime
+        latestDeliveryTime:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestDeliveryTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestDeliveryTime
+                setter: setLatestDeliveryTime
+            type: DateTime
+        trackingID:
+            expose: true
+            access_type: public_method
+            serialized_name: TrackingID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTrackingID
+                setter: setTrackingID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TrackingID
+        deliveryAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryAddress
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryAddress
+                setter: setDeliveryAddress
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\DeliveryAddress
+        alternativeDeliveryLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: AlternativeDeliveryLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAlternativeDeliveryLocation
+                setter: setAlternativeDeliveryLocation
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\AlternativeDeliveryLocation
+        estimatedDeliveryPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedDeliveryPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEstimatedDeliveryPeriod
+                setter: setEstimatedDeliveryPeriod
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\EstimatedDeliveryPeriod
+        carrierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: CarrierParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCarrierParty
+                setter: setCarrierParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\CarrierParty
+        deliveryParty:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryParty
+                setter: setDeliveryParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\DeliveryParty
+        despatch:
+            expose: true
+            access_type: public_method
+            serialized_name: Despatch
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatch
+                setter: setDespatch
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Despatch
+        deliveryTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryTerms
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryTerms
+                setter: setDeliveryTerms
+            xml_list:
+                inline: true
+                entry_name: DeliveryTerms
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\DeliveryTerms>
+        shipment:
+            expose: true
+            access_type: public_method
+            serialized_name: Shipment
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShipment
+                setter: setShipment
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Shipment

@@ -1,0 +1,18 @@
+# Composer dependencies
+/vendor/
+
+# Composer lock file (Best practice for libraries is to not commit this file)
+composer.lock
+
+# IDE configuration files
+.idea/
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Generated example output file
+/examples/invoice.xml
+
+# Generated archives
+*.zip

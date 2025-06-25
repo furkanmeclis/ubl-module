@@ -1,0 +1,42 @@
+FurkanMeclis\GIB\UBL\XAdES\V141\ValidationDataType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: Id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        uRI:
+            expose: true
+            access_type: public_method
+            serialized_name: URI
+            accessor:
+                getter: getURI
+                setter: setURI
+            xml_attribute: true
+            type: string
+        certificateValues:
+            expose: true
+            access_type: public_method
+            serialized_name: CertificateValues
+            xml_element:
+                cdata: false
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getCertificateValues
+                setter: setCertificateValues
+            type: FurkanMeclis\GIB\UBL\XAdES\V132\CertificateValues
+        revocationValues:
+            expose: true
+            access_type: public_method
+            serialized_name: RevocationValues
+            xml_element:
+                cdata: false
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getRevocationValues
+                setter: setRevocationValues
+            type: FurkanMeclis\GIB\UBL\XAdES\V132\RevocationValues

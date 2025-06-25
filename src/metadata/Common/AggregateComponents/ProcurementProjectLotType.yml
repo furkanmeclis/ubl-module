@@ -1,0 +1,35 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ProcurementProjectLotType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        tenderingTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: TenderingTerms
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTenderingTerms
+                setter: setTenderingTerms
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\TenderingTerms
+        procurementProject:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcurementProject
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getProcurementProject
+                setter: setProcurementProject
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\ProcurementProject

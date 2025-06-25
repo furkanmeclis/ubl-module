@@ -1,0 +1,50 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\EventLineItemType:
+    properties:
+        lineNumberNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: LineNumberNumeric
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineNumberNumeric
+                setter: setLineNumberNumeric
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\LineNumberNumeric
+        participatingLocationsLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: ParticipatingLocationsLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getParticipatingLocationsLocation
+                setter: setParticipatingLocationsLocation
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\ParticipatingLocationsLocation
+        retailPlannedImpact:
+            expose: true
+            access_type: public_method
+            serialized_name: RetailPlannedImpact
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRetailPlannedImpact
+                setter: setRetailPlannedImpact
+            xml_list:
+                inline: true
+                entry_name: RetailPlannedImpact
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\RetailPlannedImpact>
+        supplyItem:
+            expose: true
+            access_type: public_method
+            serialized_name: SupplyItem
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSupplyItem
+                setter: setSupplyItem
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\SupplyItem

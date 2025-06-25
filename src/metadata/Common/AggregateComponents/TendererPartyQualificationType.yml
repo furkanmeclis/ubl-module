@@ -1,0 +1,43 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\TendererPartyQualificationType:
+    properties:
+        interestedProcurementProjectLot:
+            expose: true
+            access_type: public_method
+            serialized_name: InterestedProcurementProjectLot
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getInterestedProcurementProjectLot
+                setter: setInterestedProcurementProjectLot
+            xml_list:
+                inline: true
+                entry_name: InterestedProcurementProjectLot
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\InterestedProcurementProjectLot>
+        mainQualifyingParty:
+            expose: true
+            access_type: public_method
+            serialized_name: MainQualifyingParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMainQualifyingParty
+                setter: setMainQualifyingParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\MainQualifyingParty
+        additionalQualifyingParty:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalQualifyingParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalQualifyingParty
+                setter: setAdditionalQualifyingParty
+            xml_list:
+                inline: true
+                entry_name: AdditionalQualifyingParty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\AdditionalQualifyingParty>

@@ -1,0 +1,212 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ConsumptionReportType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        consumptionType:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionType
+                setter: setConsumptionType
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ConsumptionType
+        consumptionTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionTypeCode
+                setter: setConsumptionTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ConsumptionTypeCode
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\Description>
+        totalConsumedQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalConsumedQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalConsumedQuantity
+                setter: setTotalConsumedQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TotalConsumedQuantity
+        basicConsumedQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: BasicConsumedQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBasicConsumedQuantity
+                setter: setBasicConsumedQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\BasicConsumedQuantity
+        residentOccupantsNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: ResidentOccupantsNumeric
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResidentOccupantsNumeric
+                setter: setResidentOccupantsNumeric
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ResidentOccupantsNumeric
+        consumersEnergyLevelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumersEnergyLevelCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumersEnergyLevelCode
+                setter: setConsumersEnergyLevelCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ConsumersEnergyLevelCode
+        consumersEnergyLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumersEnergyLevel
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumersEnergyLevel
+                setter: setConsumersEnergyLevel
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ConsumersEnergyLevel
+        residenceType:
+            expose: true
+            access_type: public_method
+            serialized_name: ResidenceType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResidenceType
+                setter: setResidenceType
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ResidenceType
+        residenceTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ResidenceTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResidenceTypeCode
+                setter: setResidenceTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ResidenceTypeCode
+        heatingType:
+            expose: true
+            access_type: public_method
+            serialized_name: HeatingType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHeatingType
+                setter: setHeatingType
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\HeatingType
+        heatingTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: HeatingTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHeatingTypeCode
+                setter: setHeatingTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\HeatingTypeCode
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: Period
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Period
+        guidanceDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: GuidanceDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getGuidanceDocumentReference
+                setter: setGuidanceDocumentReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\GuidanceDocumentReference
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\DocumentReference
+        consumptionReportReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionReportReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getConsumptionReportReference
+                setter: setConsumptionReportReference
+            xml_list:
+                inline: true
+                entry_name: ConsumptionReportReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\ConsumptionReportReference>
+        consumptionHistory:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionHistory
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getConsumptionHistory
+                setter: setConsumptionHistory
+            xml_list:
+                inline: true
+                entry_name: ConsumptionHistory
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\ConsumptionHistory>

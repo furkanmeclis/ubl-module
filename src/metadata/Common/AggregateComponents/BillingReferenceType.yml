@@ -1,0 +1,94 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\BillingReferenceType:
+    properties:
+        invoiceDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: InvoiceDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getInvoiceDocumentReference
+                setter: setInvoiceDocumentReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\InvoiceDocumentReference
+        selfBilledInvoiceDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: SelfBilledInvoiceDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSelfBilledInvoiceDocumentReference
+                setter: setSelfBilledInvoiceDocumentReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\SelfBilledInvoiceDocumentReference
+        creditNoteDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: CreditNoteDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCreditNoteDocumentReference
+                setter: setCreditNoteDocumentReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\CreditNoteDocumentReference
+        selfBilledCreditNoteDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: SelfBilledCreditNoteDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSelfBilledCreditNoteDocumentReference
+                setter: setSelfBilledCreditNoteDocumentReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\SelfBilledCreditNoteDocumentReference
+        debitNoteDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DebitNoteDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDebitNoteDocumentReference
+                setter: setDebitNoteDocumentReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\DebitNoteDocumentReference
+        reminderDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ReminderDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReminderDocumentReference
+                setter: setReminderDocumentReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\ReminderDocumentReference
+        additionalDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalDocumentReference
+                setter: setAdditionalDocumentReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\AdditionalDocumentReference
+        billingReferenceLine:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingReferenceLine
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBillingReferenceLine
+                setter: setBillingReferenceLine
+            xml_list:
+                inline: true
+                entry_name: BillingReferenceLine
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\BillingReferenceLine>

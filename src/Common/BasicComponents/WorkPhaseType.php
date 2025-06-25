@@ -1,0 +1,16 @@
+<?php
+
+namespace FurkanMeclis\GIB\UBL\Common\BasicComponents;
+
+use FurkanMeclis\GIB\UBL\UnqualifiedDataTypes\TextType;
+
+/**
+ * Class representing WorkPhaseType
+ *
+ *
+ * XSD Type: WorkPhaseType
+ */
+class WorkPhaseType extends TextType
+{
+}
+

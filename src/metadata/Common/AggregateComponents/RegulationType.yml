@@ -1,0 +1,35 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\RegulationType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Name
+        legalReference:
+            expose: true
+            access_type: public_method
+            serialized_name: LegalReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLegalReference
+                setter: setLegalReference
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\LegalReference
+        ontologyURI:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyURI
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOntologyURI
+                setter: setOntologyURI
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\OntologyURI

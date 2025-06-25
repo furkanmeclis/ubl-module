@@ -1,0 +1,46 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\CatalogueItemSpecificationUpdateLineType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        contractorCustomerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractorCustomerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContractorCustomerParty
+                setter: setContractorCustomerParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\ContractorCustomerParty
+        sellerSupplierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: SellerSupplierParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSellerSupplierParty
+                setter: setSellerSupplierParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\SellerSupplierParty
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: Item
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItem
+                setter: setItem
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Item

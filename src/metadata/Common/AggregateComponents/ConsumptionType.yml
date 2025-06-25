@@ -1,0 +1,87 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ConsumptionType:
+    properties:
+        utilityStatementTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: UtilityStatementTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUtilityStatementTypeCode
+                setter: setUtilityStatementTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\UtilityStatementTypeCode
+        mainPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: MainPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMainPeriod
+                setter: setMainPeriod
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\MainPeriod
+        allowanceCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceCharge
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAllowanceCharge
+                setter: setAllowanceCharge
+            xml_list:
+                inline: true
+                entry_name: AllowanceCharge
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\AllowanceCharge>
+        taxTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxTotal
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxTotal
+                setter: setTaxTotal
+            xml_list:
+                inline: true
+                entry_name: TaxTotal
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\TaxTotal>
+        energyWaterSupply:
+            expose: true
+            access_type: public_method
+            serialized_name: EnergyWaterSupply
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEnergyWaterSupply
+                setter: setEnergyWaterSupply
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\EnergyWaterSupply
+        telecommunicationsSupply:
+            expose: true
+            access_type: public_method
+            serialized_name: TelecommunicationsSupply
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTelecommunicationsSupply
+                setter: setTelecommunicationsSupply
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\TelecommunicationsSupply
+        legalMonetaryTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: LegalMonetaryTotal
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLegalMonetaryTotal
+                setter: setLegalMonetaryTotal
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\LegalMonetaryTotal

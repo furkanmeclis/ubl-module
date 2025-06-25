@@ -1,0 +1,46 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\DutyType:
+    properties:
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Amount
+        duty:
+            expose: true
+            access_type: public_method
+            serialized_name: Duty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDuty
+                setter: setDuty
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Duty
+        dutyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DutyCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDutyCode
+                setter: setDutyCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\DutyCode
+        taxCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxCategory
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxCategory
+                setter: setTaxCategory
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\TaxCategory

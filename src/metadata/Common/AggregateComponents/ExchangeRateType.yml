@@ -1,0 +1,46 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ExchangeRateType:
+    properties:
+        sourceCurrencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceCurrencyCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSourceCurrencyCode
+                setter: setSourceCurrencyCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\SourceCurrencyCode
+        targetCurrencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TargetCurrencyCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTargetCurrencyCode
+                setter: setTargetCurrencyCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TargetCurrencyCode
+        calculationRate:
+            expose: true
+            access_type: public_method
+            serialized_name: CalculationRate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCalculationRate
+                setter: setCalculationRate
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\CalculationRate
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: Date
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: DateTime

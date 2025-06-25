@@ -1,0 +1,83 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\StockAvailabilityReportLineType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\Note>
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Quantity
+        valueAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: ValueAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValueAmount
+                setter: setValueAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ValueAmount
+        availabilityDate:
+            expose: true
+            access_type: public_method
+            serialized_name: AvailabilityDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAvailabilityDate
+                setter: setAvailabilityDate
+            type: DateTime
+        availabilityStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AvailabilityStatusCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAvailabilityStatusCode
+                setter: setAvailabilityStatusCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\AvailabilityStatusCode
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: Item
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItem
+                setter: setItem
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Item

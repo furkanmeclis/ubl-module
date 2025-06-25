@@ -1,0 +1,153 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\TransportMeansType:
+    properties:
+        journeyID:
+            expose: true
+            access_type: public_method
+            serialized_name: JourneyID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getJourneyID
+                setter: setJourneyID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\JourneyID
+        registrationNationalityID:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationNationalityID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegistrationNationalityID
+                setter: setRegistrationNationalityID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\RegistrationNationalityID
+        registrationNationality:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationNationality
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegistrationNationality
+                setter: setRegistrationNationality
+            xml_list:
+                inline: true
+                entry_name: RegistrationNationality
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\RegistrationNationality>
+        directionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DirectionCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDirectionCode
+                setter: setDirectionCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\DirectionCode
+        transportMeansTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportMeansTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransportMeansTypeCode
+                setter: setTransportMeansTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TransportMeansTypeCode
+        tradeServiceCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TradeServiceCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTradeServiceCode
+                setter: setTradeServiceCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TradeServiceCode
+        stowage:
+            expose: true
+            access_type: public_method
+            serialized_name: Stowage
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getStowage
+                setter: setStowage
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Stowage
+        airTransport:
+            expose: true
+            access_type: public_method
+            serialized_name: AirTransport
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAirTransport
+                setter: setAirTransport
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\AirTransport
+        roadTransport:
+            expose: true
+            access_type: public_method
+            serialized_name: RoadTransport
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRoadTransport
+                setter: setRoadTransport
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\RoadTransport
+        railTransport:
+            expose: true
+            access_type: public_method
+            serialized_name: RailTransport
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRailTransport
+                setter: setRailTransport
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\RailTransport
+        maritimeTransport:
+            expose: true
+            access_type: public_method
+            serialized_name: MaritimeTransport
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMaritimeTransport
+                setter: setMaritimeTransport
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\MaritimeTransport
+        ownerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: OwnerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOwnerParty
+                setter: setOwnerParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\OwnerParty
+        measurementDimension:
+            expose: true
+            access_type: public_method
+            serialized_name: MeasurementDimension
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMeasurementDimension
+                setter: setMeasurementDimension
+            xml_list:
+                inline: true
+                entry_name: MeasurementDimension
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\MeasurementDimension>

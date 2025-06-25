@@ -1,0 +1,90 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\PartyLegalEntityType:
+    properties:
+        registrationName:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegistrationName
+                setter: setRegistrationName
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\RegistrationName
+        companyID:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCompanyID
+                setter: setCompanyID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\CompanyID
+        registrationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegistrationDate
+                setter: setRegistrationDate
+            type: DateTime
+        soleProprietorshipIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SoleProprietorshipIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSoleProprietorshipIndicator
+                setter: setSoleProprietorshipIndicator
+            type: bool
+        corporateStockAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: CorporateStockAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCorporateStockAmount
+                setter: setCorporateStockAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\CorporateStockAmount
+        fullyPaidSharesIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: FullyPaidSharesIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFullyPaidSharesIndicator
+                setter: setFullyPaidSharesIndicator
+            type: bool
+        corporateRegistrationScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: CorporateRegistrationScheme
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCorporateRegistrationScheme
+                setter: setCorporateRegistrationScheme
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\CorporateRegistrationScheme
+        headOfficeParty:
+            expose: true
+            access_type: public_method
+            serialized_name: HeadOfficeParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getHeadOfficeParty
+                setter: setHeadOfficeParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\HeadOfficeParty

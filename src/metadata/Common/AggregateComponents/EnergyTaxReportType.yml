@@ -1,0 +1,46 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\EnergyTaxReportType:
+    properties:
+        taxEnergyAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxEnergyAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxEnergyAmount
+                setter: setTaxEnergyAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TaxEnergyAmount
+        taxEnergyOnAccountAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxEnergyOnAccountAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxEnergyOnAccountAmount
+                setter: setTaxEnergyOnAccountAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TaxEnergyOnAccountAmount
+        taxEnergyBalanceAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxEnergyBalanceAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxEnergyBalanceAmount
+                setter: setTaxEnergyBalanceAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\TaxEnergyBalanceAmount
+        taxScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxScheme
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxScheme
+                setter: setTaxScheme
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\TaxScheme

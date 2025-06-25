@@ -1,0 +1,101 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\PickupType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        actualPickupDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualPickupDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualPickupDate
+                setter: setActualPickupDate
+            type: DateTime
+        actualPickupTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualPickupTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualPickupTime
+                setter: setActualPickupTime
+            type: DateTime
+        earliestPickupDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EarliestPickupDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEarliestPickupDate
+                setter: setEarliestPickupDate
+            type: DateTime
+        earliestPickupTime:
+            expose: true
+            access_type: public_method
+            serialized_name: EarliestPickupTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEarliestPickupTime
+                setter: setEarliestPickupTime
+            type: DateTime
+        latestPickupDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestPickupDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestPickupDate
+                setter: setLatestPickupDate
+            type: DateTime
+        latestPickupTime:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestPickupTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestPickupTime
+                setter: setLatestPickupTime
+            type: DateTime
+        pickupLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: PickupLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPickupLocation
+                setter: setPickupLocation
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\PickupLocation
+        pickupParty:
+            expose: true
+            access_type: public_method
+            serialized_name: PickupParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPickupParty
+                setter: setPickupParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\PickupParty

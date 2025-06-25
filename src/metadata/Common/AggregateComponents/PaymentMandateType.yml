@@ -1,0 +1,116 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\PaymentMandateType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ID
+        mandateTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: MandateTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMandateTypeCode
+                setter: setMandateTypeCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\MandateTypeCode
+        maximumPaymentInstructionsNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPaymentInstructionsNumeric
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumPaymentInstructionsNumeric
+                setter: setMaximumPaymentInstructionsNumeric
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\MaximumPaymentInstructionsNumeric
+        maximumPaidAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPaidAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumPaidAmount
+                setter: setMaximumPaidAmount
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\MaximumPaidAmount
+        signatureID:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatureID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSignatureID
+                setter: setSignatureID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\SignatureID
+        payerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: PayerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayerParty
+                setter: setPayerParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\PayerParty
+        payerFinancialAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: PayerFinancialAccount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayerFinancialAccount
+                setter: setPayerFinancialAccount
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\PayerFinancialAccount
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\ValidityPeriod
+        paymentReversalPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentReversalPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPaymentReversalPeriod
+                setter: setPaymentReversalPeriod
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\PaymentReversalPeriod
+        clause:
+            expose: true
+            access_type: public_method
+            serialized_name: Clause
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getClause
+                setter: setClause
+            xml_list:
+                inline: true
+                entry_name: Clause
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\Clause>

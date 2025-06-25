@@ -1,0 +1,46 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\EndorserPartyType:
+    properties:
+        roleCode:
+            expose: true
+            access_type: public_method
+            serialized_name: RoleCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRoleCode
+                setter: setRoleCode
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\RoleCode
+        sequenceNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: SequenceNumeric
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSequenceNumeric
+                setter: setSequenceNumeric
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\SequenceNumeric
+        party:
+            expose: true
+            access_type: public_method
+            serialized_name: Party
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getParty
+                setter: setParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Party
+        signatoryContact:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatoryContact
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSignatoryContact
+                setter: setSignatoryContact
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\SignatoryContact

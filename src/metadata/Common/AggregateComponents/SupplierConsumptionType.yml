@@ -1,0 +1,76 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\SupplierConsumptionType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\BasicComponents\Description>
+        utilitySupplierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: UtilitySupplierParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getUtilitySupplierParty
+                setter: setUtilitySupplierParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\UtilitySupplierParty
+        utilityCustomerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: UtilityCustomerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getUtilityCustomerParty
+                setter: setUtilityCustomerParty
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\UtilityCustomerParty
+        consumption:
+            expose: true
+            access_type: public_method
+            serialized_name: Consumption
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getConsumption
+                setter: setConsumption
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Consumption
+        contract:
+            expose: true
+            access_type: public_method
+            serialized_name: Contract
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContract
+                setter: setContract
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\Contract
+        consumptionLine:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionLine
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getConsumptionLine
+                setter: setConsumptionLine
+            xml_list:
+                inline: true
+                entry_name: ConsumptionLine
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\ConsumptionLine>

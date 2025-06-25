@@ -1,0 +1,94 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\ItemInstanceType:
+    properties:
+        productTraceID:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductTraceID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getProductTraceID
+                setter: setProductTraceID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\ProductTraceID
+        manufactureDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ManufactureDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getManufactureDate
+                setter: setManufactureDate
+            type: DateTime
+        manufactureTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ManufactureTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getManufactureTime
+                setter: setManufactureTime
+            type: DateTime
+        bestBeforeDate:
+            expose: true
+            access_type: public_method
+            serialized_name: BestBeforeDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBestBeforeDate
+                setter: setBestBeforeDate
+            type: DateTime
+        registrationID:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegistrationID
+                setter: setRegistrationID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\RegistrationID
+        serialID:
+            expose: true
+            access_type: public_method
+            serialized_name: SerialID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSerialID
+                setter: setSerialID
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\SerialID
+        additionalItemProperty:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalItemProperty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalItemProperty
+                setter: setAdditionalItemProperty
+            xml_list:
+                inline: true
+                entry_name: AdditionalItemProperty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<FurkanMeclis\GIB\UBL\Common\AggregateComponents\AdditionalItemProperty>
+        lotIdentification:
+            expose: true
+            access_type: public_method
+            serialized_name: LotIdentification
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLotIdentification
+                setter: setLotIdentification
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\LotIdentification

@@ -1,0 +1,35 @@
+FurkanMeclis\GIB\UBL\Common\AggregateComponents\DependentPriceReferenceType:
+    properties:
+        percent:
+            expose: true
+            access_type: public_method
+            serialized_name: Percent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPercent
+                setter: setPercent
+            type: FurkanMeclis\GIB\UBL\Common\BasicComponents\Percent
+        locationAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: LocationAddress
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLocationAddress
+                setter: setLocationAddress
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\LocationAddress
+        dependentLineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DependentLineReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDependentLineReference
+                setter: setDependentLineReference
+            type: FurkanMeclis\GIB\UBL\Common\AggregateComponents\DependentLineReference
