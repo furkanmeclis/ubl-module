@@ -3,11 +3,11 @@
     "description": "Gizli",
     "type": "library",
     "license": "MIT",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "authors": [
         {
             "name": "Furkan Meclis",
-            "email": "furkanmeclis@example.com"
+            "email": "furkanmeclis@icloud.com"
         }
     ],
     "require": {
@@ -15,7 +15,6 @@
         "goetas-webservices/xsd2php-runtime": "^0.2.0",
         "jms/serializer": "^3.0",
         "symfony/yaml": "^6.0 || ^7.0"
-
     },
     "require-dev": {
         "goetas-webservices/xsd2php": "^0.4.14"

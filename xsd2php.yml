@@ -19,7 +19,7 @@ xsd2php:
 
     # Data Types
     'urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2': 'FurkanMeclis\GIB\UBL\UnqualifiedDataTypes'
-    'urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2': 'FurkanMeclis\GIB\UBL\QualifiedDataTypes'
+
 
     # Core & External Standards
     'urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2': 'FurkanMeclis\GIB\UBL\CoreComponent'
@@ -48,7 +48,7 @@ xsd2php:
 
     # Data Types
     'FurkanMeclis\GIB\UBL\UnqualifiedDataTypes': 'src/UnqualifiedDataTypes'
-    'FurkanMeclis\GIB\UBL\QualifiedDataTypes': 'src/QualifiedDataTypes'
+
 
     # Core & External Standards
     'FurkanMeclis\GIB\UBL\CoreComponent': 'src/CoreComponent'
@@ -77,7 +77,7 @@ xsd2php:
 
     # Data Types
     'FurkanMeclis\GIB\UBL\UnqualifiedDataTypes': 'src/metadata/UnqualifiedDataTypes'
-    'FurkanMeclis\GIB\UBL\QualifiedDataTypes': 'src/metadata/QualifiedDataTypes'
+
 
     # Core & External Standards
     'FurkanMeclis\GIB\UBL\CoreComponent': 'src/metadata/CoreComponent'
