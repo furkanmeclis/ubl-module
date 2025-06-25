@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PartyLegalEntityType:
             accessor:
                 getter: getRegistrationDate
                 setter: setRegistrationDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         soleProprietorshipIndicator:
             expose: true
             access_type: public_method

@@ -21,7 +21,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\TelecommunicationsServiceType:
             accessor:
                 getter: getCallDate
                 setter: setCallDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         callTime:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\TelecommunicationsServiceType:
             accessor:
                 getter: getCallTime
                 setter: setCallTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         serviceNumberCalled:
             expose: true
             access_type: public_method

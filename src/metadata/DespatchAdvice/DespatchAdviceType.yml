@@ -92,7 +92,7 @@ FurkanMeclis\GIB\UBL\DespatchAdvice\DespatchAdviceType:
             accessor:
                 getter: getIssueDate
                 setter: setIssueDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         issueTime:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ FurkanMeclis\GIB\UBL\DespatchAdvice\DespatchAdviceType:
             accessor:
                 getter: getIssueTime
                 setter: setIssueTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         despatchAdviceTypeCode:
             expose: true
             access_type: public_method

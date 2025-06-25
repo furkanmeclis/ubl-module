@@ -58,7 +58,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\InventoryReportLineType:
             accessor:
                 getter: getAvailabilityDate
                 setter: setAvailabilityDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         availabilityStatusCode:
             expose: true
             access_type: public_method

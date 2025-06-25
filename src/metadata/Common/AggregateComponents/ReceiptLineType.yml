@@ -106,7 +106,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ReceiptLineType:
             accessor:
                 getter: getReceivedDate
                 setter: setReceivedDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         timingComplaintCode:
             expose: true
             access_type: public_method

@@ -21,4 +21,4 @@ FurkanMeclis\GIB\UBL\XAdES\V132\ResponderIDType:
             accessor:
                 getter: getByKey
                 setter: setByKey
-            type: string
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded

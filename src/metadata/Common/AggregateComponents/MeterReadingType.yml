@@ -43,7 +43,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\MeterReadingType:
             accessor:
                 getter: getPreviousMeterReadingDate
                 setter: setPreviousMeterReadingDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         previousMeterQuantity:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\MeterReadingType:
             accessor:
                 getter: getLatestMeterReadingDate
                 setter: setLatestMeterReadingDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         latestMeterQuantity:
             expose: true
             access_type: public_method

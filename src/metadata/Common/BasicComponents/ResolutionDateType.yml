@@ -7,6 +7,6 @@ FurkanMeclis\GIB\UBL\Common\BasicComponents\ResolutionDateType:
             accessor:
                 getter: value
                 setter: value
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
             xml_element:
                 cdata: false

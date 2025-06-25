@@ -9,6 +9,6 @@ FurkanMeclis\GIB\UBL\Common\BasicComponents\ActualDespatchTime:
             accessor:
                 getter: value
                 setter: value
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
             xml_element:
                 cdata: false

@@ -21,7 +21,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\DocumentReferenceType:
             accessor:
                 getter: getIssueDate
                 setter: setIssueDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         documentTypeCode:
             expose: true
             access_type: public_method

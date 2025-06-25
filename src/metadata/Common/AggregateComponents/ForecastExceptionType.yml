@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ForecastExceptionType:
             accessor:
                 getter: getIssueDate
                 setter: setIssueDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         issueTime:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ForecastExceptionType:
             accessor:
                 getter: getIssueTime
                 setter: setIssueTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         dataSourceCode:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ForecastExceptionType:
             accessor:
                 getter: getComparisonForecastIssueTime
                 setter: setComparisonForecastIssueTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         comparisonForecastIssueDate:
             expose: true
             access_type: public_method
@@ -87,4 +87,4 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ForecastExceptionType:
             accessor:
                 getter: getComparisonForecastIssueDate
                 setter: setComparisonForecastIssueDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date

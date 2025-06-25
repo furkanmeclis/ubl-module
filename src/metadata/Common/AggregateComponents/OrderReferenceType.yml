@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\OrderReferenceType:
             accessor:
                 getter: getIssueDate
                 setter: setIssueDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         orderTypeCode:
             expose: true
             access_type: public_method

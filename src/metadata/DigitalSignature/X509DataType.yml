@@ -29,7 +29,7 @@ FurkanMeclis\GIB\UBL\DigitalSignature\X509DataType:
                 inline: true
                 entry_name: X509SKI
                 namespace: 'http://www.w3.org/2000/09/xmldsig#'
-            type: array<string>
+            type: array<GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded>
         x509SubjectName:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ FurkanMeclis\GIB\UBL\DigitalSignature\X509DataType:
                 inline: true
                 entry_name: X509Certificate
                 namespace: 'http://www.w3.org/2000/09/xmldsig#'
-            type: array<string>
+            type: array<GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded>
         x509CRL:
             expose: true
             access_type: public_method
@@ -74,4 +74,4 @@ FurkanMeclis\GIB\UBL\DigitalSignature\X509DataType:
                 inline: true
                 entry_name: X509CRL
                 namespace: 'http://www.w3.org/2000/09/xmldsig#'
-            type: array<string>
+            type: array<GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded>

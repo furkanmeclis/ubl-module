@@ -21,7 +21,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PickupType:
             accessor:
                 getter: getActualPickupDate
                 setter: setActualPickupDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         actualPickupTime:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PickupType:
             accessor:
                 getter: getActualPickupTime
                 setter: setActualPickupTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         earliestPickupDate:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PickupType:
             accessor:
                 getter: getEarliestPickupDate
                 setter: setEarliestPickupDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         earliestPickupTime:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PickupType:
             accessor:
                 getter: getEarliestPickupTime
                 setter: setEarliestPickupTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         latestPickupDate:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PickupType:
             accessor:
                 getter: getLatestPickupDate
                 setter: setLatestPickupDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         latestPickupTime:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PickupType:
             accessor:
                 getter: getLatestPickupTime
                 setter: setLatestPickupTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         pickupLocation:
             expose: true
             access_type: public_method

@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\DeliveryType:
             accessor:
                 getter: getActualDeliveryDate
                 setter: setActualDeliveryDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         actualDeliveryTime:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\DeliveryType:
             accessor:
                 getter: getActualDeliveryTime
                 setter: setActualDeliveryTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         latestDeliveryDate:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\DeliveryType:
             accessor:
                 getter: getLatestDeliveryDate
                 setter: setLatestDeliveryDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         latestDeliveryTime:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\DeliveryType:
             accessor:
                 getter: getLatestDeliveryTime
                 setter: setLatestDeliveryTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         trackingID:
             expose: true
             access_type: public_method

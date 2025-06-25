@@ -21,7 +21,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\EventType:
             accessor:
                 getter: getOccurrenceDate
                 setter: setOccurrenceDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         occurrenceTime:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\EventType:
             accessor:
                 getter: getOccurrenceTime
                 setter: setOccurrenceTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         typeCode:
             expose: true
             access_type: public_method

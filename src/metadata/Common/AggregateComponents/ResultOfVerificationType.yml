@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ResultOfVerificationType:
             accessor:
                 getter: getValidationDate
                 setter: setValidationDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         validationTime:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ResultOfVerificationType:
             accessor:
                 getter: getValidationTime
                 setter: setValidationTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         validateProcess:
             expose: true
             access_type: public_method

@@ -10,7 +10,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PeriodType:
             accessor:
                 getter: getStartDate
                 setter: setStartDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         startTime:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PeriodType:
             accessor:
                 getter: getStartTime
                 setter: setStartTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         endDate:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PeriodType:
             accessor:
                 getter: getEndDate
                 setter: setEndDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         endTime:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PeriodType:
             accessor:
                 getter: getEndTime
                 setter: setEndTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         durationMeasure:
             expose: true
             access_type: public_method

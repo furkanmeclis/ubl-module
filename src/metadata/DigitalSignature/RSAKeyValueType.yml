@@ -10,7 +10,7 @@ FurkanMeclis\GIB\UBL\DigitalSignature\RSAKeyValueType:
             accessor:
                 getter: getModulus
                 setter: setModulus
-            type: string
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded
         exponent:
             expose: true
             access_type: public_method
@@ -21,4 +21,4 @@ FurkanMeclis\GIB\UBL\DigitalSignature\RSAKeyValueType:
             accessor:
                 getter: getExponent
                 setter: setExponent
-            type: string
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded

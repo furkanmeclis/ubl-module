@@ -62,7 +62,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ForecastRevisionLineType:
             accessor:
                 getter: getSourceForecastIssueDate
                 setter: setSourceForecastIssueDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         sourceForecastIssueTime:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ForecastRevisionLineType:
             accessor:
                 getter: getSourceForecastIssueTime
                 setter: setSourceForecastIssueTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         adjustmentReasonCode:
             expose: true
             access_type: public_method

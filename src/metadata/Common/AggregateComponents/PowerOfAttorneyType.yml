@@ -21,7 +21,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PowerOfAttorneyType:
             accessor:
                 getter: getIssueDate
                 setter: setIssueDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         issueTime:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PowerOfAttorneyType:
             accessor:
                 getter: getIssueTime
                 setter: setIssueTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         description:
             expose: true
             access_type: public_method

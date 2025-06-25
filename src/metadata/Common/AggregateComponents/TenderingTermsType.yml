@@ -195,7 +195,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\TenderingTermsType:
             accessor:
                 getter: getLatestSecurityClearanceDate
                 setter: setLatestSecurityClearanceDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         documentationFeeAmount:
             expose: true
             access_type: public_method

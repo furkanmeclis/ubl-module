@@ -7,7 +7,7 @@ FurkanMeclis\GIB\UBL\XAdES\V132\EncapsulatedPKIDataType:
             accessor:
                 getter: value
                 setter: value
-            type: string
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded
             xml_element:
                 cdata: false
         id:

@@ -21,7 +21,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\EventCommentType:
             accessor:
                 getter: getIssueDate
                 setter: setIssueDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         issueTime:
             expose: true
             access_type: public_method
@@ -32,4 +32,4 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\EventCommentType:
             accessor:
                 getter: getIssueTime
                 setter: setIssueTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time

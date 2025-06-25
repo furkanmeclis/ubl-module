@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ClassificationSchemeType:
             accessor:
                 getter: getLastRevisionDate
                 setter: setLastRevisionDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         lastRevisionTime:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ClassificationSchemeType:
             accessor:
                 getter: getLastRevisionTime
                 setter: setLastRevisionTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         note:
             expose: true
             access_type: public_method

@@ -43,4 +43,4 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ExchangeRateType:
             accessor:
                 getter: getDate
                 setter: setDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date

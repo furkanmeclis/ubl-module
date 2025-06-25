@@ -21,7 +21,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\StatusType:
             accessor:
                 getter: getReferenceDate
                 setter: setReferenceDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         referenceTime:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\StatusType:
             accessor:
                 getter: getReferenceTime
                 setter: setReferenceTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         description:
             expose: true
             access_type: public_method

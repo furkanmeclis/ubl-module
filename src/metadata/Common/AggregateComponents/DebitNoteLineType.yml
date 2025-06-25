@@ -69,7 +69,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\DebitNoteLineType:
             accessor:
                 getter: getTaxPointDate
                 setter: setTaxPointDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         accountingCostCode:
             expose: true
             access_type: public_method

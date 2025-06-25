@@ -21,7 +21,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\LotIdentificationType:
             accessor:
                 getter: getExpiryDate
                 setter: setExpiryDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         additionalItemProperty:
             expose: true
             access_type: public_method

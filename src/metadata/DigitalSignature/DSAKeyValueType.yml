@@ -10,7 +10,7 @@ FurkanMeclis\GIB\UBL\DigitalSignature\DSAKeyValueType:
             accessor:
                 getter: getP
                 setter: setP
-            type: string
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded
         q:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ FurkanMeclis\GIB\UBL\DigitalSignature\DSAKeyValueType:
             accessor:
                 getter: getQ
                 setter: setQ
-            type: string
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded
         g:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\DigitalSignature\DSAKeyValueType:
             accessor:
                 getter: getG
                 setter: setG
-            type: string
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded
         'y':
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ FurkanMeclis\GIB\UBL\DigitalSignature\DSAKeyValueType:
             accessor:
                 getter: getY
                 setter: setY
-            type: string
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded
         j:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ FurkanMeclis\GIB\UBL\DigitalSignature\DSAKeyValueType:
             accessor:
                 getter: getJ
                 setter: setJ
-            type: string
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded
         seed:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ FurkanMeclis\GIB\UBL\DigitalSignature\DSAKeyValueType:
             accessor:
                 getter: getSeed
                 setter: setSeed
-            type: string
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded
         pgenCounter:
             expose: true
             access_type: public_method
@@ -76,4 +76,4 @@ FurkanMeclis\GIB\UBL\DigitalSignature\DSAKeyValueType:
             accessor:
                 getter: getPgenCounter
                 setter: setPgenCounter
-            type: string
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded

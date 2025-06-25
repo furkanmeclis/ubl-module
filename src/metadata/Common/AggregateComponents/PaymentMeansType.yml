@@ -21,7 +21,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PaymentMeansType:
             accessor:
                 getter: getPaymentDueDate
                 setter: setPaymentDueDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         paymentChannelCode:
             expose: true
             access_type: public_method

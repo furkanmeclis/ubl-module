@@ -21,7 +21,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ContractType:
             accessor:
                 getter: getIssueDate
                 setter: setIssueDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         issueTime:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ContractType:
             accessor:
                 getter: getIssueTime
                 setter: setIssueTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         nominationDate:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ContractType:
             accessor:
                 getter: getNominationDate
                 setter: setNominationDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         nominationTime:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ContractType:
             accessor:
                 getter: getNominationTime
                 setter: setNominationTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         contractTypeCode:
             expose: true
             access_type: public_method

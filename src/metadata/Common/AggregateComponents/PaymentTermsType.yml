@@ -54,7 +54,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PaymentTermsType:
             accessor:
                 getter: getPaymentDueDate
                 setter: setPaymentDueDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         settlementPeriod:
             expose: true
             access_type: public_method

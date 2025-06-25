@@ -47,7 +47,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\TenderResultType:
             accessor:
                 getter: getAwardDate
                 setter: setAwardDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         awardTime:
             expose: true
             access_type: public_method
@@ -58,7 +58,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\TenderResultType:
             accessor:
                 getter: getAwardTime
                 setter: setAwardTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         receivedTenderQuantity:
             expose: true
             access_type: public_method
@@ -102,7 +102,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\TenderResultType:
             accessor:
                 getter: getStartDate
                 setter: setStartDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         receivedElectronicTenderQuantity:
             expose: true
             access_type: public_method

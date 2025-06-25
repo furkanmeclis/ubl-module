@@ -103,7 +103,7 @@ FurkanMeclis\GIB\UBL\CreditNote\CreditNoteType:
             accessor:
                 getter: getIssueDate
                 setter: setIssueDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         issueTime:
             expose: true
             access_type: public_method
@@ -114,7 +114,7 @@ FurkanMeclis\GIB\UBL\CreditNote\CreditNoteType:
             accessor:
                 getter: getIssueTime
                 setter: setIssueTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         taxPointDate:
             expose: true
             access_type: public_method
@@ -125,7 +125,7 @@ FurkanMeclis\GIB\UBL\CreditNote\CreditNoteType:
             accessor:
                 getter: getTaxPointDate
                 setter: setTaxPointDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         creditNoteTypeCode:
             expose: true
             access_type: public_method

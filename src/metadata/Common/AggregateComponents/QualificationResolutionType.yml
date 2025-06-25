@@ -51,7 +51,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\QualificationResolutionType:
             accessor:
                 getter: getResolutionDate
                 setter: setResolutionDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         resolutionTime:
             expose: true
             access_type: public_method
@@ -62,7 +62,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\QualificationResolutionType:
             accessor:
                 getter: getResolutionTime
                 setter: setResolutionTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         procurementProjectLot:
             expose: true
             access_type: public_method

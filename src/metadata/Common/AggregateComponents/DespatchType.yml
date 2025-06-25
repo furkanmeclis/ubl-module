@@ -21,7 +21,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\DespatchType:
             accessor:
                 getter: getActualDespatchDate
                 setter: setActualDespatchDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         actualDespatchTime:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\DespatchType:
             accessor:
                 getter: getActualDespatchTime
                 setter: setActualDespatchTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         instructions:
             expose: true
             access_type: public_method

@@ -21,4 +21,4 @@ FurkanMeclis\GIB\UBL\XAdES\V132\DigestAlgAndValueType:
             accessor:
                 getter: getDigestValue
                 setter: setDigestValue
-            type: string
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded

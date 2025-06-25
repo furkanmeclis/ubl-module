@@ -21,7 +21,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ItemInstanceType:
             accessor:
                 getter: getManufactureDate
                 setter: setManufactureDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         manufactureTime:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ItemInstanceType:
             accessor:
                 getter: getManufactureTime
                 setter: setManufactureTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         bestBeforeDate:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\ItemInstanceType:
             accessor:
                 getter: getBestBeforeDate
                 setter: setBestBeforeDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         registrationID:
             expose: true
             access_type: public_method

@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PaymentType:
             accessor:
                 getter: getReceivedDate
                 setter: setReceivedDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         paidDate:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PaymentType:
             accessor:
                 getter: getPaidDate
                 setter: setPaidDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         paidTime:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PaymentType:
             accessor:
                 getter: getPaidTime
                 setter: setPaidTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         instructionID:
             expose: true
             access_type: public_method

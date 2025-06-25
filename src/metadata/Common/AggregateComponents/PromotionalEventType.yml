@@ -21,7 +21,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PromotionalEventType:
             accessor:
                 getter: getSubmissionDate
                 setter: setSubmissionDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         firstShipmentAvailibilityDate:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PromotionalEventType:
             accessor:
                 getter: getFirstShipmentAvailibilityDate
                 setter: setFirstShipmentAvailibilityDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         latestProposalAcceptanceDate:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\PromotionalEventType:
             accessor:
                 getter: getLatestProposalAcceptanceDate
                 setter: setLatestProposalAcceptanceDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         promotionalSpecification:
             expose: true
             access_type: public_method

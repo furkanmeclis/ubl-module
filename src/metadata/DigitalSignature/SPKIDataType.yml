@@ -14,4 +14,4 @@ FurkanMeclis\GIB\UBL\DigitalSignature\SPKIDataType:
                 inline: true
                 entry_name: SPKISexp
                 namespace: 'http://www.w3.org/2000/09/xmldsig#'
-            type: array<string>
+            type: array<GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded>

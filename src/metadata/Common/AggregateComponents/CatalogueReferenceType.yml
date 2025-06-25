@@ -32,7 +32,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\CatalogueReferenceType:
             accessor:
                 getter: getIssueDate
                 setter: setIssueDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         issueTime:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\CatalogueReferenceType:
             accessor:
                 getter: getIssueTime
                 setter: setIssueTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         revisionDate:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\CatalogueReferenceType:
             accessor:
                 getter: getRevisionDate
                 setter: setRevisionDate
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
         revisionTime:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ FurkanMeclis\GIB\UBL\Common\AggregateComponents\CatalogueReferenceType:
             accessor:
                 getter: getRevisionTime
                 setter: setRevisionTime
-            type: DateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
         note:
             expose: true
             access_type: public_method

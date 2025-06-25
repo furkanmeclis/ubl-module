@@ -28,7 +28,7 @@ class OrderReferenceType
     /**
      * @var \FurkanMeclis\GIB\UBL\Common\BasicComponents\OrderTypeCode $orderTypeCode
      */
-    private $orderTypeCode = null;
+    private $orderTypeCode = null; 
 
     /**
      * @var \FurkanMeclis\GIB\UBL\Common\AggregateComponents\DocumentReference $documentReference
