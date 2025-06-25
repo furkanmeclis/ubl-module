@@ -26,7 +26,7 @@ xsd2php:
     'http://www.w3.org/2000/09/xmldsig#': 'FurkanMeclis\GIB\UBL\DigitalSignature'
     'http://uri.etsi.org/01903/v1.3.2#': 'FurkanMeclis\GIB\UBL\XAdES\V132'
     'http://uri.etsi.org/01903/v1.4.1#': 'FurkanMeclis\GIB\UBL\XAdES\V141'
-    'urn:un:unece:uncefact:documentation:2': 'FurkanMeclis\GIB\UBL\UN\Documentation'
+
 
   destinations_php:
     # Main Docs
@@ -55,7 +55,7 @@ xsd2php:
     'FurkanMeclis\GIB\UBL\DigitalSignature': 'src/DigitalSignature'
     'FurkanMeclis\GIB\UBL\XAdES\V132': 'src/XAdES/V132'
     'FurkanMeclis\GIB\UBL\XAdES\V141': 'src/XAdES/V141'
-    'FurkanMeclis\GIB\UBL\UN\Documentation': 'src/UN/Documentation'
+
 
   destinations_jms:
     # Main Docs
@@ -84,13 +84,6 @@ xsd2php:
     'FurkanMeclis\GIB\UBL\DigitalSignature': 'src/metadata/DigitalSignature'
     'FurkanMeclis\GIB\UBL\XAdES\V132': 'src/metadata/XAdES/V132'
     'FurkanMeclis\GIB\UBL\XAdES\V141': 'src/metadata/XAdES/V141'
-    'FurkanMeclis\GIB\UBL\UN\Documentation': 'src/metadata/UN/Documentation'
-
-  aliases:
-    'http://www.w3.org/2001/XMLSchema':
-      date: 'DateTime'
-      time: 'DateTime'
-      base64Binary: 'string'
 
   configs_jms:
     xml_cdata: false
